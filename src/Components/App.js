@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 import "./App.css"
 
@@ -27,7 +27,7 @@ export default function App() {
           <Route path="/cariboun-prototype-website" element={<Dashboard />} />
           <Route exact path="/" element={<Dashboard />} />
           <Route path="/cariboun-prototype-website/dashboard" element={<Dashboard />} />
-          <Route path="/cariboun-prototype-website/Reporting" element={<Reporting />} />
+          <Route path="/cariboun-prototype-website/reporting" element={<Reporting />} />
           <Route path="/cariboun-prototype-website/reporting/create" element={<CreateReport />} />
           <Route path="/cariboun-prototype-website/reporting/create/form" element={<Form />} />
           <Route path="/cariboun-prototype-website/sdg" element={<SDG />} />
