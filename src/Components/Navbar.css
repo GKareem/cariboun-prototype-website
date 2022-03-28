@@ -1,0 +1,90 @@
+/* .navbarMain {
+  display: flex;
+  min-height: 100%;
+  min-width: 13%;
+  background-color: white;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.divLogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  margin-top: 40%;
+  margin-bottom: 90%;
+}
+
+.logo {
+  max-height: calc(368px * 5);
+  max-width: calc(30px * 5);
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  min-height: 10%;
+  margin: 0%;
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  list-style-type: none;
+} */
+
+#navBar {
+  display: flex;
+  height: 100vh;
+  width: fit-content;
+  background-color: white;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+#imgDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 30%;
+}
+
+#listDiv {
+  margin-top: -60%;
+}
+
+.item {
+  display: flex;
+  margin-top: 35%;
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  list-style-type: none;
+}
+
+.item:not(hover) {
+  cursor: pointer;
+  opacity: 40%;
+}
+
+.item:hover {
+  cursor: pointer;
+  opacity: 100%;
+}
+
+.list #active{
+  opacity: 100%;
+}
+
+.item #icon {
+  display: grid;
+  place-items: center;
+  flex: 30%;
+}
+
+.item #title {
+  display: grid;
+  flex: 70%;
+}

@@ -1,0 +1,64 @@
+#text {
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+}
+
+#boldText {
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+}
+
+#subHeading {
+  opacity: 70%;
+  margin-top: 2%;
+  text-align: start;
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+}
+
+#sdg {
+  display: flex;
+  height: fit-content;
+  width: 100vw;
+  align-self: center;
+  justify-content: center;
+}
+
+.SDGTitle {
+  text-align: center;
+}
+
+#newSDGButton {
+  margin-top: 5%;
+}
+
+#newSDGButton:hover {
+  cursor: pointer;
+  opacity: 60%;
+}
+
+#sdgSummary {
+  display: flex;
+  height: fit-content;
+  min-width: 65vw;
+  margin-top: 5%;
+  text-align: center;
+  background-color: white;
+  border-radius: 1.5rem;
+}
+
+#imgGrid {
+  width: 20vw;
+  margin-left: 10%;
+}
+
+img {
+  margin-right: 3%;
+}
+
+#secImg {
+  opacity: 50%;
+}

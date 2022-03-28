@@ -1,0 +1,59 @@
+#text {
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+}
+
+#boldText {
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+}
+
+#tasks {
+  display: flex;
+  height: fit-content;
+  width: 100vw;
+  justify-content: center;
+  align-self: center;
+}
+
+.tasksTitle {
+  text-align: center;
+}
+
+#newTaskButton {
+  margin-top: 5%;
+}
+
+#newTaskButton:hover {
+  cursor: pointer;
+  opacity: 60%;
+}
+
+#existingTasks {
+  margin-top: 5%;
+  height: fit-content;
+  min-width: 65vw;
+  text-align: center;
+  background-color: white;
+  border-radius: 1.5rem;
+}
+
+#tasksTable {
+  vertical-align: middle;
+  margin-top: 2%;
+}
+
+#dateButton{
+  margin-left: 5%;
+  color: white;
+  background-color: rgb(66, 107, 94);
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+}
+
+#profileImg {
+  padding-right: 4%;
+  text-align: end;
+}

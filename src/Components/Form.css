@@ -1,0 +1,57 @@
+#text {
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+}
+
+#boldText {
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+}
+
+.indent{
+  margin-left: 5%;
+}
+
+.doubleIndent{
+  margin-left: 10%;
+}
+
+#form {
+  display: flex;
+  min-height: 100%;
+  width: 100vw;
+  margin-top: 5%;
+  justify-content: center;
+}
+
+#formInfo {
+  height: 65vh;
+  width: 70vw;
+  text-align: justify;
+  background-color: white;
+  border-radius: 1.5rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#textInput {
+  margin-top: 1%;
+}
+
+#submitBtnDiv {
+  margin-top: 1%;
+  text-align: end;
+}
+
+#submitBtn {
+  color: white;
+  background-color: rgb(66, 107, 94);
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+}
+
+#submitBtn:hover {
+  opacity: 60%;
+}

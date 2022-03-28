@@ -1,0 +1,72 @@
+#text {
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+}
+
+#boldText {
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+}
+
+#createTask {
+  display: flex;
+  height: fit-content;
+  width: 100vw;
+  justify-content: center;
+  align-self: center;
+}
+
+#createExistingTasks {
+  height: fit-content;
+  min-width: 65vw;
+  text-align: center;
+  background-color: white;
+  border-radius: 1.5rem;
+}
+
+#createTaskForm {
+  margin-left: 5%;
+}
+
+#formDiv {
+  margin-top: 2%;
+  width: 30vw;
+}
+
+#inputLabel1 {
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  transform: translate(3vw);
+}
+
+#inputLabel2 {
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  transform: translate(0.6vw);
+}
+
+#inputLabel3 {
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  transform: translate(12vw);
+}
+
+#inputField1 {
+  margin-right: 10%;
+  transform: translate(3vw);
+}
+
+#inputField2 {
+  margin-right: 2%;
+  transform: translate(0.6vw);
+}
+
+#inputField3 {
+  margin-right: 40%;
+  transform: translate(12vw);
+}

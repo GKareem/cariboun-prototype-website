@@ -1,0 +1,94 @@
+#text {
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+}
+
+#boldText {
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+}
+
+#createENV {
+  display: flex;
+  height: fit-content;
+  width: 100vw;
+  justify-content: center;
+  align-self: center;
+}
+
+#createNewENV {
+  height: 60vh;
+  min-width: 65vw;
+  text-align: center;
+  background-color: white;
+  border-radius: 1.5rem;
+}
+
+#createENVForm {
+  width: auto;
+  height: 47vh;
+  text-align: start;
+  margin-left: 5%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#formENGDiv {
+  /* background-color: blanchedalmond; */
+  margin-top: 2%;
+}
+
+#inputLabel {
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+}
+
+#inputLabelRegular {
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+}
+
+#inputField {
+  width: 10vw;
+}
+
+#inputFieldSmall {
+  width: 5vw;
+  margin-left: -3%;
+}
+
+#rangeInput {
+  width: 28vw;
+}
+
+#inputRadio {
+  width: 1.5vw;
+  height: 1.5vw;
+}
+
+#inputImg {
+  margin-left: 2%;
+}
+
+#saveButtonDivCenter {
+  margin-top: 1%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+/* #inputLabelInlay {
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  margin-left: 3%;
+  justify-content: end;
+  justify-items: end;
+  justify-self: end;
+  align-items: flex-end;
+  align-self: flex-end;
+  align-content: flex-end;
+} */
