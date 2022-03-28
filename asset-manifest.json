@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/cariboun-prototype-website/static/css/main.3513e88e.css",
+    "main.js": "/cariboun-prototype-website/static/js/main.a672dcc5.js",
+    "static/media/bootstrap-icons.woff?": "/cariboun-prototype-website/static/media/bootstrap-icons.c1d7432ee75fa194e499.woff",
+    "static/media/bootstrap-icons.woff2?": "/cariboun-prototype-website/static/media/bootstrap-icons.a13b815539b49de48d23.woff2",
+    "static/media/ClimateImpactGraph.png": "/cariboun-prototype-website/static/media/ClimateImpactGraph.3e7c5b4ae5ca98b8c931.png",
+    "static/media/SDG_17.png": "/cariboun-prototype-website/static/media/SDG_17.f970e7c36c351b30a49c.png",
+    "static/media/SDG_12.png": "/cariboun-prototype-website/static/media/SDG_12.d3360baf5738c38a86e2.png",
+    "static/media/SDG_9.png": "/cariboun-prototype-website/static/media/SDG_9.81355d6f8caa71f0977b.png",
+    "static/media/SDG_16.png": "/cariboun-prototype-website/static/media/SDG_16.d9da1670c4b52ac89d90.png",
+    "static/media/SDG_13.png": "/cariboun-prototype-website/static/media/SDG_13.a5a81d4d076ace73c0f7.png",
+    "static/media/SDG_7.png": "/cariboun-prototype-website/static/media/SDG_7.2ec0d1a25cbc81fdfadb.png",
+    "static/media/SDG_3.png": "/cariboun-prototype-website/static/media/SDG_3.f6b9f9379bff6be75230.png",
+    "static/media/SDG_1.png": "/cariboun-prototype-website/static/media/SDG_1.2869a96997aa1ed3009d.png",
+    "static/media/SDG_8.png": "/cariboun-prototype-website/static/media/SDG_8.11c4c71e570b9b125e6f.png",
+    "static/media/SDG_14.png": "/cariboun-prototype-website/static/media/SDG_14.7e925148d030fbe8ad95.png",
+    "static/media/SDG_6.png": "/cariboun-prototype-website/static/media/SDG_6.74efcd0f1d51a5a3f0ab.png",
+    "static/media/SDG_11.png": "/cariboun-prototype-website/static/media/SDG_11.884c794e2a3bb6b91812.png",
+    "static/media/SDG_2.png": "/cariboun-prototype-website/static/media/SDG_2.610a1339a8adb1ddf548.png",
+    "static/media/SDG_4.png": "/cariboun-prototype-website/static/media/SDG_4.f8a53f9bfef979a9796c.png",
+    "static/media/SDG_15.png": "/cariboun-prototype-website/static/media/SDG_15.8458faf644fdf5afe6c6.png",
+    "static/media/SDG_5.png": "/cariboun-prototype-website/static/media/SDG_5.2f81f05072595bdf2e59.png",
+    "static/media/tableImg.png": "/cariboun-prototype-website/static/media/tableImg.b370f8573f0cef7e6e92.png",
+    "static/media/SDG_10.png": "/cariboun-prototype-website/static/media/SDG_10.a7817c5e3b1c3e6b1eba.png",
+    "static/media/Report_2.png": "/cariboun-prototype-website/static/media/Report_2.758f99da79b1e624f87e.png",
+    "static/media/ESGMetrics_2.png": "/cariboun-prototype-website/static/media/ESGMetrics_2.72d93e566f9bcbabbc7f.png",
+    "static/media/ESGMetrics_3.png": "/cariboun-prototype-website/static/media/ESGMetrics_3.0f04b469a70af9e2122f.png",
+    "static/media/profilepic.png": "/cariboun-prototype-website/static/media/profilepic.19f59537bf072de131c5.png",
+    "static/media/ESGMetrics_1.png": "/cariboun-prototype-website/static/media/ESGMetrics_1.a554e4fd48b5b33dc218.png",
+    "static/media/logo.png": "/cariboun-prototype-website/static/media/logo.e764a8afaebd2a139733.png",
+    "index.html": "/cariboun-prototype-website/index.html",
+    "main.3513e88e.css.map": "/cariboun-prototype-website/static/css/main.3513e88e.css.map",
+    "main.a672dcc5.js.map": "/cariboun-prototype-website/static/js/main.a672dcc5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3513e88e.css",
+    "static/js/main.a672dcc5.js"
+  ]
+}
