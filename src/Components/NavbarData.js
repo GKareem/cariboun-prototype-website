@@ -4,26 +4,26 @@ export const NavbarData = [
   {
     title: "Dashboard",
     icon: <i class="bi bi-grid-1x2-fill" />,
-    link: "/cariboun-prototype-website/dashboard",
+    link: "/dashboard",
   },
   {
     title: "Reporting",
     icon: <i class="bi bi-pie-chart-fill" />,
-    link: "/cariboun-prototype-website/reporting",
+    link: "/reporting",
   },
   {
     title: "SDG",
     icon: <i class="bi bi-disc-fill" />,
-    link: "/cariboun-prototype-website/sdg",
+    link: "/sdg",
   },
   {
     title: "Tasks",
     icon: <i class="bi bi-clipboard2-check-fill" />,
-    link: "/cariboun-prototype-website/tasks",
+    link: "/tasks",
   },
   {
     title: "Environment",
     icon: <i class="bi bi-clouds-fill" />,
-    link: "/cariboun-prototype-website/environment",
+    link: "/environment",
   },
 ]

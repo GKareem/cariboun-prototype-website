@@ -27,17 +27,17 @@ export default function App() {
         <Routes>
           <Route path="/cariboun-prototype-website" element={<Dashboard />} />
           <Route exact path="/" element={<Dashboard />} />
-          <Route path="/cariboun-prototype-website/dashboard" element={<Dashboard />} />
-          <Route path="/cariboun-prototype-website/reporting" element={<Reporting />} />
-          <Route path="/cariboun-prototype-website/reporting/create" element={<CreateReport />} />
-          <Route path="/cariboun-prototype-website/reporting/create/form" element={<Form />} />
-          <Route path="/cariboun-prototype-website/sdg" element={<SDG />} />
-          <Route path="/cariboun-prototype-website/sdg/create" element={<CreateSDG />} />
-          <Route path="/cariboun-prototype-website/sdg/create/save" element={<SaveSDG />} />
-          <Route path="/cariboun-prototype-website/tasks" element={<Tasks />} />
-          <Route path="/cariboun-prototype-website/tasks/create" element={<CreateTask />} />
-          <Route path="/cariboun-prototype-website/environment" element={<Environment />} />
-          <Route path="/cariboun-prototype-website/environment/create" element={<CreateEnvironment />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/reporting" element={<Reporting />} />
+          <Route path="/create" element={<CreateReport />} />
+          <Route path="/reporting/create/form" element={<Form />} />
+          <Route path="/sdg" element={<SDG />} />
+          <Route path="/sdg/create" element={<CreateSDG />} />
+          <Route path="/sdg/create/save" element={<SaveSDG />} />
+          <Route path="/tasks" element={<Tasks />} />
+          <Route path="/tasks/create" element={<CreateTask />} />
+          <Route path="/environment" element={<Environment />} />
+          <Route path="/environment/create" element={<CreateEnvironment />} />
         </Routes>
       </HashRouter>
     </div>
