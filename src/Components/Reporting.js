@@ -12,7 +12,7 @@ export default function Reporting() {
       <div class="row align-items-start">
         <div class="column">
           <h3 id="boldText" className="reportTitle">Reporting</h3>
-          <button id="newReportButton" type="button" class="btn btn-lg" onClick={() => { window.location.pathname = `${window.location.pathname}/create` }}><h1 class="bi bi-file-earmark-plus-fill" /><h6>New Report</h6></button>
+          <button id="newReportButton" type="button" class="btn btn-lg" onClick={() => { window.location.href = "/#/reporting/create" }}><h1 class="bi bi-file-earmark-plus-fill" /><h6>New Report</h6></button>
         </div>
         <div class="column">
           <div id="existingReports" class="card">

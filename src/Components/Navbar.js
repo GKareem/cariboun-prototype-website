@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import "./Navbar.css"
 
 import { NavbarData } from "./NavbarData";
@@ -17,7 +17,7 @@ export default function Navbar() {
           <ul className="list">
           {NavbarData.map((val, key) => {
             return (
-              <li className="item" id={window.location.pathname == val.link ? "active" : ""} key={key} onClick={() => {window.location.pathname = val.link}}>
+              <li className="item" id={window.location.href.indexOf(val.link) !== -1 ? "active" : ""} key={key} onClick={() => { window.location.href = `/#/${val.link}` }}>
                 <div id="icon">{val.icon}</div>
                 <div id="title">{val.title}</div>
               </li>
