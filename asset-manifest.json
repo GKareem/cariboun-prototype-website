@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cariboun-prototype-website/static/css/main.3513e88e.css",
-    "main.js": "/cariboun-prototype-website/static/js/main.b744dd6d.js",
+    "main.js": "/cariboun-prototype-website/static/js/main.63602c50.js",
     "static/media/bootstrap-icons.woff?": "/cariboun-prototype-website/static/media/bootstrap-icons.c1d7432ee75fa194e499.woff",
     "static/media/bootstrap-icons.woff2?": "/cariboun-prototype-website/static/media/bootstrap-icons.a13b815539b49de48d23.woff2",
     "static/media/ClimateImpactGraph.png": "/cariboun-prototype-website/static/media/ClimateImpactGraph.3e7c5b4ae5ca98b8c931.png",
@@ -31,10 +31,10 @@
     "static/media/logo.png": "/cariboun-prototype-website/static/media/logo.e764a8afaebd2a139733.png",
     "index.html": "/cariboun-prototype-website/index.html",
     "main.3513e88e.css.map": "/cariboun-prototype-website/static/css/main.3513e88e.css.map",
-    "main.b744dd6d.js.map": "/cariboun-prototype-website/static/js/main.b744dd6d.js.map"
+    "main.63602c50.js.map": "/cariboun-prototype-website/static/js/main.63602c50.js.map"
   },
   "entrypoints": [
     "static/css/main.3513e88e.css",
-    "static/js/main.b744dd6d.js"
+    "static/js/main.63602c50.js"
   ]
 }
