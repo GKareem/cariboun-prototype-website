@@ -1,5 +1,6 @@
 import React from "react";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 import "./App.css"
 
@@ -20,7 +21,7 @@ import CreateEnvironment from "./CreateEnvironment";
 export default function App() {
   return (
     <div className="App">
-      <Router>
+      <HashRouter>
         <Navbar />
         <SearchBar />
         <Routes>
@@ -38,7 +39,7 @@ export default function App() {
           <Route path="/cariboun-prototype-website/environment" element={<Environment />} />
           <Route path="/cariboun-prototype-website/environment/create" element={<CreateEnvironment />} />
         </Routes>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
