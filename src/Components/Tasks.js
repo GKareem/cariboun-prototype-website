@@ -15,7 +15,7 @@ export default function Reporting() {
       <div class="row align-items-start">
         <div class="column">
           <h3 id="boldText" className="tasksTitle">Tasks</h3>
-          <button id="newTaskButton" type="button" class="btn btn-lg" onClick={() => { window.location.pathname = `${window.location.pathname}/create` }}><h1 class="bi bi-file-earmark-plus-fill" /><h6>New Task</h6></button>
+          <button id="newTaskButton" type="button" class="btn btn-lg" onClick={() => { window.location.href = "/cariboun-prototype-website/#/tasks/create" }}><h1 class="bi bi-file-earmark-plus-fill" /><h6>New Task</h6></button>
         </div>
         <div class="column">
           <div id="existingTasks" class="card">

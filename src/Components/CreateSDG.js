@@ -62,7 +62,7 @@ export default function CreateSDG() {
                   })}
               </div>
               <div id="saveButtonDiv">
-                <button id="saveButton" class="btn btn-primary btn-lg" onClick={() => { window.location.pathname = `${window.location.pathname}/save` }}>Save</button>
+                <button id="saveButton" class="btn btn-primary btn-lg" onClick={() => { window.location.href = "/cariboun-prototype-website/#/sdg/create/save" }}>Save</button>
               </div>
             </div>
           </div>

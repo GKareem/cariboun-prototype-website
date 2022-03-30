@@ -20,24 +20,6 @@ import CreateEnvironment from "./CreateEnvironment";
 export default function App() {
   return (
     <div className="App">
-      {/* <Router>
-        <Navbar />
-        <SearchBar />
-        <Routes>
-          <Route exact path="/" element={<Dashboard />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/reporting" element={<Reporting />} />
-          <Route path="/reporting/create" element={<CreateReport />} />
-          <Route path="/reporting/create/form" element={<Form />} />
-          <Route path="/sdg" element={<SDG />} />
-          <Route path="/sdg/create" element={<CreateSDG />} />
-          <Route path="/sdg/create/save" element={<SaveSDG />} />
-          <Route path="/tasks" element={<Tasks />} />
-          <Route path="/tasks/create" element={<CreateTask />} />
-          <Route path="/environment" element={<Environment />} />
-          <Route path="/environment/create" element={<CreateEnvironment />} />
-        </Routes>
-      </Router> */}
       <HashRouter>
         <Switch>
           <Route exact path="/">
@@ -59,6 +41,46 @@ export default function App() {
             <Navbar />
             <SearchBar />
             <CreateReport />
+          </Route>
+          <Route exact path="/reporting/create/form">
+            <Navbar />
+            <SearchBar />
+            <Form />
+          </Route>
+          <Route exact path="/sdg">
+            <Navbar />
+            <SearchBar />
+            <SDG />
+          </Route>
+          <Route exact path="/sdg/create">
+            <Navbar />
+            <SearchBar />
+            <CreateSDG />
+          </Route>
+          <Route exact path="/sdg/create/save">
+            <Navbar />
+            <SearchBar />
+            <SaveSDG />
+          </Route>
+          <Route exact path="/tasks">
+            <Navbar />
+            <SearchBar />
+            <Tasks />
+          </Route>
+          <Route exact path="/tasks/create">
+            <Navbar />
+            <SearchBar />
+            <CreateTask />
+          </Route>
+          <Route exact path="/environment">
+            <Navbar />
+            <SearchBar />
+            <Environment />
+          </Route>
+          <Route exact path="/environment/create">
+            <Navbar />
+            <SearchBar />
+            <CreateEnvironment />
           </Route>
         </Switch>
       </HashRouter>

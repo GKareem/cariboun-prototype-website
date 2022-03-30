@@ -10,7 +10,7 @@ export default function Environment() {
       <div class="row align-items-start">
         <div class="column">
           <h3 id="boldText" className="ENVTitle">Environment</h3>
-          <button id="newENVButton" type="button" class="btn btn-lg" onClick={() => { window.location.pathname = `${window.location.pathname}/create` }}><h1 class="bi bi-file-earmark-plus-fill" /><h6>New Assessment</h6></button>
+          <button id="newENVButton" type="button" class="btn btn-lg" onClick={() => { window.location.href = "/cariboun-prototype-website/#/environment/create" }}><h1 class="bi bi-file-earmark-plus-fill" /><h6>New Assessment</h6></button>
         </div>
         <div class="column">
           <div id="envSummary" class="card">

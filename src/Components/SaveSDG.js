@@ -4,21 +4,23 @@ import "./CreateSDG.css";
 
 let SDGImg = [];
 
-function getImgData(){
-  const imgData = localStorage.getItem("ImgInfo");
-  if (imgData) {
-    SDGImg = JSON.parse(imgData);
-  }
-}
-
-getImgData();
-
 export default function CreateSDG() {
   const [, updateState] = useState();
   const forceUpdate = useCallback(() => updateState({}), []);
   const [imgInfo, setImgInfo] = useState([]);
 
   let selectedSDGImg = [];
+
+  useEffect(() => {
+    getImgData();
+  });
+
+  function getImgData(){
+    const imgData = localStorage.getItem("ImgInfo");
+    if (imgData) {
+      SDGImg = JSON.parse(imgData);
+    }
+  }
 
   function selectedImg(){
     for (let i = 0; i < SDGImg.length; i++){
@@ -30,6 +32,7 @@ export default function CreateSDG() {
   }
 
   return (
+    getImgData(),
     selectedImg(),
     <div id="createSDG" class="container-fluid">
       <div class="row align-items-start">

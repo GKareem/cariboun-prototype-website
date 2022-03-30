@@ -16,7 +16,7 @@ export default function SDG() {
       <div class="row align-items-start">
         <div class="column">
           <h3 id="boldText" className="SDGTitle">SDG</h3>
-          <button id="newSDGButton" type="button" class="btn btn-lg" onClick={() => { window.location.pathname = `${window.location.pathname}/create` }}><h1 class="bi bi-file-earmark-plus-fill" /><h6>New SDG <h6>Assignment</h6></h6></button>
+          <button id="newSDGButton" type="button" class="btn btn-lg" onClick={() => { window.location.href = "/cariboun-prototype-website/#/sdg/create" }}><h1 class="bi bi-file-earmark-plus-fill" /><h6>New SDG <h6>Assignment</h6></h6></button>
         </div>
         <div class="column">
           <div id="sdgSummary" class="card">

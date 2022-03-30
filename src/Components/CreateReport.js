@@ -13,7 +13,7 @@ export default function CreateReport() {
         <div id="columnDiv" class="column">
           <h4 id="boldText">Choose Report Type</h4>
           <div id="buttonGrid">
-            <button id="reportButton" type="button" class="btn" onClick={() => { window.location.pathname = `${window.location.pathname}/form` }}><img class="img-fluid" src={report_1} width="100" height="100" /></button>
+            <button id="reportButton" type="button" class="btn" onClick={() => { window.location.href = "/cariboun-prototype-website/#/reporting/create/form" }}><img class="img-fluid" src={report_1} width="100" height="100" /></button>
             <button id="reportButton" type="button" class="btn"><img class="img-fluid" src={report_2} width="100" height="100" /></button>
             <button id="reportButton" type="button" class="btn"><img class="img-fluid" src={report_3} width="100" height="100" /></button>
           </div>
