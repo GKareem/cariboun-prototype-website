@@ -24,34 +24,34 @@ export default function Reporting() {
               <table id="tasksTable" class="table table-borderless">
                 <tbody>
                   <tr>
-                    <th class="col-2"><h2 class="bi bi-app" /></th>
+                    <th class="col-2"><h2 class="bi bi-square" /></th>
                     <th id="boldText" class="col-6">Review data from December report</th>
                     <th id="profileImg" class="col-4">
                       <img class="img-fluid" src={Pic_1} width="55" height="55" />
                       <img class="img-fluid" src={Pic_2} width="55" height="55" />
                       <img class="img-fluid" src={Pic_3} width="55" height="55" />
-                      <button id="dateButton" class="btn">MAR<br/>12</button>
+                      <div id="dateDiv" class="btn">MAR<br/>12</div>
                     </th>
                   </tr>
                   <tr>
-                    <th class="col-2"><h2 class="bi bi-app" /></th>
+                    <th class="col-2"><h2 class="bi bi-square" /></th>
                     <th id="boldText" class="col-6">Review Carbon emission from 2021</th>
                     <th id="profileImg" class="col-4">
                       <img class="img-fluid" src={Pic_4} width="55" height="55" />
                       <img class="img-fluid" src={Pic_5} width="55" height="55" />
                       <img class="img-fluid" src={Pic_6} width="55" height="55" />
-                      <button id="dateButton" class="btn">MAR<br/>18</button>
+                      <div id="dateDiv" class="btn">MAR<br/>18</div>
                     </th>
                   </tr>
                   <tr>
-                    <th class="col-2"><h2 class="bi bi-app" /></th>
+                    <th class="col-2"><h2 class="bi bi-square" /></th>
                     <th id="boldText" class="col-6">Review of supplier ESG data</th>
                     <th id="profileImg" class="col-6">
                       <img class="img-fluid" src={Pic_5} width="55" height="55" />
                       <img class="img-fluid" src={Pic_6} width="55" height="55" />
                       <img class="img-fluid" src={Pic_4} width="55" height="55" />
                       <img class="img-fluid" src={Pic_2} width="55" height="55" />
-                      <button id="dateButton" class="btn">MAR<br/>21</button>
+                      <div id="dateDiv" class="btn">MAR<br/>21</div>
                     </th>
                   </tr>
                 </tbody>

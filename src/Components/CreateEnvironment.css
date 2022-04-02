@@ -36,7 +36,6 @@
 }
 
 #formENGDiv {
-  /* background-color: blanchedalmond; */
   margin-top: 2%;
 }
 
@@ -74,21 +73,8 @@
   margin-left: 2%;
 }
 
-#saveButtonDivCenter {
+#submitButtonDivCenter {
   margin-top: 1%;
   margin-right: 5%;
   text-align: center;
 }
-
-/* #inputLabelInlay {
-  color: black;
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 700;
-  margin-left: 3%;
-  justify-content: end;
-  justify-items: end;
-  justify-self: end;
-  align-items: flex-end;
-  align-self: flex-end;
-  align-content: flex-end;
-} */

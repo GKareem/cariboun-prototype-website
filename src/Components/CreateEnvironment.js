@@ -71,18 +71,8 @@ export default function CreateEnvironment() {
                   <input id="inputField" class="form-control" />
                 </div>
               </form>
-              <div id="saveButtonDivCenter">
-                <button id="saveButton" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#popupModal">Submit</button>
-              </div>
-              <div class="modal fade" id="popupModal">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title">Thanks for Submitting</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                  </div>
-                </div>
+              <div id="submitButtonDivCenter">
+                <button id="saveButton" class="btn btn-primary btn-lg" onClick={() => { window.location.href = "/cariboun-prototype-website/#/environment/create/results" }} >Submit</button>
               </div>
             </div>
           </div>

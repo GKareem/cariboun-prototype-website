@@ -26,4 +26,10 @@ export const NavbarData = [
     icon: <i class="bi bi-clouds-fill" />,
     link: "environment",
   },
+  {
+    title: "Logout",
+    icon: <i class="bi bi-arrow-left-circle-fill" />,
+    link: "log-out",
+  },
 ]
+
