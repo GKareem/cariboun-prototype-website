@@ -1,8 +1,10 @@
 .DashboardContainer {
-  display: block;
-  flex-direction: row;
-  min-height: 100%;
-  width: 100%;
+  display: flex;
+  height: fit-content;
+  width: 100vw;
+  justify-content: center;
+  align-self: flex-start;
+  overflow: hidden;
 }
 
 .title {
@@ -21,8 +23,6 @@
   display: flex;
   height: 18%;
   width: 40%;
-  margin-top: 10%;
-  margin-left: 10%;
   background-color: white;
   border-radius: 1.5rem;
 }
@@ -40,18 +40,10 @@
   margin-top: 0.9rem;
 }
 
-.ESGMetrics .imgSize {
-  max-width: 100%;
-  max-height: calc(176px / 4);
-  max-width: calc(176px / 4);
-}
-
 .climateImpact {
   display: flex;
   height: 50%;
   width: 40%;
-  margin-top: 4%;
-  margin-left: 10%;
   background-color: white;
   border-radius: 1.5rem;
 }
@@ -70,19 +62,14 @@
   margin-top: 5%;
 }
 
-.climateImpact .graphSize {
+.climateImpact .graph {
   margin-top: 10%;
-  margin-left: 3.2%;
-  max-height: calc(476px * 3);
-  max-width: calc(182px * 3);
 }
 
 .SDGSummary {
   display: flex;
   height: 32%;
   width: 30%;
-  margin-top: -47.2%;
-  margin-left: 60%;
   background-color: white;
   border-radius: 1.5rem;
 }
@@ -101,23 +88,14 @@
   justify-content: space-evenly;
 }
 
-.SDGSummary .imgSize {
-  max-height: calc(1500px / 30);
-  max-width: calc(1500px / 30); 
-}
-
-.SDGSummary .secondaryImgSize {
+.SDGSummary .secImg {
   opacity: 50%;
-  max-height: calc(1500px / 30);
-  max-width: calc(1500px / 30); 
 }
 
 .Reports {
   display: flex;
   height: 16%;
   width: 30%;
-  margin-top: 4%;
-  margin-left: 60%;
   background-color: white;
   border-radius: 1.5rem;
 }
