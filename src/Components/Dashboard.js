@@ -24,7 +24,7 @@ export default function Dashboard() {
   return (
     <div class="container-fluid" className="DashboardContainer">
       <div class="row align-items-start">
-        <div style={{backgroundColor: "red", display: "flex", marginTop: "10%", justifyContent: "space-evenly"}} class="column">
+        <div style={{display: "flex", marginTop: "10%", justifyContent: "space-evenly"}} class="column">
           <div class="card" className="ESGMetrics">
             <div class="card-body">
               <h5 class="card-title" className="title">ESG Metrics<i style={{marginLeft: "70%"}} class="bi bi-list"></i></h5>
@@ -60,7 +60,7 @@ export default function Dashboard() {
         </div>
         </div>
 
-        <div style={{backgroundColor: "blue", display: "flex", marginTop: "3%", justifyContent: "space-evenly"}} class="column">
+        <div style={{display: "flex", marginTop: "3%", justifyContent: "space-evenly"}} class="column">
           <div class="card" className="climateImpact">
             <div class="card-body">
               <h5 class="card-title" className="title">Climate Impact<i style={{marginLeft: "64%"}} class="bi bi-list"></i></h5>
